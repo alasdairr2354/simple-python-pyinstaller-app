@@ -37,7 +37,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacets 'dist/add2vals'
+                    archiveArtifacts 'dist/add2vals'
                 }
             }
         }
